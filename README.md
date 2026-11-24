@@ -1,5 +1,9 @@
 # مخبز القاهرة اليدوي — Cairo Artisan Bakery
 
+![Screenshot](screenshots/desktop-hero.png)
+
+_Screenshot from a local test run (fictional business)._
+
 A fictional artisan Egyptian bakery website built as a portfolio demonstration of Arabic-first RTL web design, vanilla HTML/CSS/JS, and full offline capability.
 
 > **⚠️ Portfolio Demo Notice:** This is a fictional business created to showcase web development capabilities. No real bakery exists at this address. All contact information, phone numbers, and addresses are illustrative.
@@ -24,7 +28,7 @@ A fictional artisan Egyptian bakery website built as a portfolio demonstration o
 | Styling | CSS3 (Custom Properties, Grid, Flexbox, Animations) |
 | Interactivity | Vanilla JavaScript (ES6+) |
 | Icons | Inline SVG |
-| Deployment | GitHub Pages + Actions |
+| Deployment | GitHub Actions workflow for GitHub Pages is included (`.github/workflows/deploy.yml`); Pages is not enabled for this repository, so there is no live link yet |
 
 ## Local Development
 
@@ -62,11 +66,5 @@ pip install pytest pytest-playwright playwright
 playwright install chromium
 pytest tests/ -v
 ```
-
-## Live Website
-
-[See deployment link below](#live-website)
-
----
 
 Built as part of an AI Web Agency portfolio demo showcasing Arabic web development capabilities.
